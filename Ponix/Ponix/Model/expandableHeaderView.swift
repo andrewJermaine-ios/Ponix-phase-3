@@ -33,14 +33,14 @@ class expandableHeaderView: UITableViewHeaderFooterView {
     func customInit(title: String, section: Int, delegate: expandableHeaderViewDelegate) {
         self.textLabel?.text = title
         self.section = section
-        self.delegate = delegate as! expandableHeaderView as! expandableHeaderViewDelegate
+        self.delegate = delegate 
     }
     
-    override func layoutSubviews() {
+   /* override func layoutSubviews() {
         self.layoutSubviews()
         self.textLabel?.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         self.contentView.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-    }
+    }*/
 
     /*
     // Only override draw() if you perform custom drawing.

@@ -10,10 +10,10 @@ import Foundation
 
 struct Section {
     var cities: String!
-    var harvest: String!
+    var harvest: [String]!
     var expanded: Bool!
     
-    init(cities: String, harvest: String, expanded: Bool) {
+    init(cities: String, harvest: [String], expanded: Bool) {
         self.cities = cities
         self.harvest = harvest
         self.expanded = expanded
