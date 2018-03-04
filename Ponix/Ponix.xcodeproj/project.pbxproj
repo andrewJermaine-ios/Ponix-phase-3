@@ -22,6 +22,7 @@
 		DB09BBC4204B4F52005E5437 /* UIViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB09BBC3204B4F52005E5437 /* UIViewShadow.swift */; };
 		DB09BBC6204B5213005E5437 /* UILabelShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB09BBC5204B5213005E5437 /* UILabelShadow.swift */; };
 		DB09BBC8204B5259005E5437 /* UIButtonShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB09BBC7204B5259005E5437 /* UIButtonShadow.swift */; };
+		DB09BBCA204B5BCE005E5437 /* CityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB09BBC9204B5BCE005E5437 /* CityVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		DB09BBC3204B4F52005E5437 /* UIViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShadow.swift; sourceTree = "<group>"; };
 		DB09BBC5204B5213005E5437 /* UILabelShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelShadow.swift; sourceTree = "<group>"; };
 		DB09BBC7204B5259005E5437 /* UIButtonShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonShadow.swift; sourceTree = "<group>"; };
+		DB09BBC9204B5BCE005E5437 /* CityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				DB09BBBD204B38C0005E5437 /* MonitorVC.swift */,
 				DB09BBBF204B38D0005E5437 /* ControlVC.swift */,
 				DB09BBC1204B38E2005E5437 /* ShopVC.swift */,
+				DB09BBC9204B5BCE005E5437 /* CityVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				DB09BBC4204B4F52005E5437 /* UIViewShadow.swift in Sources */,
 				DB09BBBA204B30FE005E5437 /* Section.swift in Sources */,
 				DB09BBB6204B1BF7005E5437 /* MenuVC.swift in Sources */,
+				DB09BBCA204B5BCE005E5437 /* CityVC.swift in Sources */,
 				DB09BBB8204B1E7E005E5437 /* MainVC.swift in Sources */,
 				DB09BBC8204B5259005E5437 /* UIButtonShadow.swift in Sources */,
 			);

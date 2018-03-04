@@ -18,6 +18,8 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var shopContainer: UIView!
     
+    @IBOutlet weak var cityContainer: UIView!
+    
     @IBOutlet weak var monitorBtn: UIButton!
     
     @IBOutlet weak var controlBtn: UIButton!
@@ -38,10 +40,13 @@ class MainVC: UIViewController {
         monitorContainer.isHidden = false
         controlContainer.isHidden = true
         shopContainer.isHidden = true
+        cityContainer.isHidden = true
         
         monitorBtn.layer.backgroundColor = #colorLiteral(red: 0.737254902, green: 0.8196078431, blue: 0.537254902, alpha: 1)
         controlBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
         shopBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
+        cityContainer.isHidden = true
+
         
     }
     
@@ -50,16 +55,22 @@ class MainVC: UIViewController {
         monitorContainer.isHidden = true
         controlContainer.isHidden = false
         shopContainer.isHidden = true
+        cityContainer.isHidden = true
+
         
         monitorBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
         controlBtn.layer.backgroundColor = #colorLiteral(red: 0.737254902, green: 0.8196078431, blue: 0.537254902, alpha: 1)
         shopBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
+        cityContainer.isHidden = true
+
     }
     
     @IBAction func shopPress(_ sender: Any) {
         monitorContainer.isHidden = true
         controlContainer.isHidden = true
         shopContainer.isHidden = false
+        cityContainer.isHidden = true
+
         
         monitorBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
         controlBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)

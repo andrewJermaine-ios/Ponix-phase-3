@@ -30,6 +30,17 @@ class MonitorVC: UIViewController {
     }
     
 
+    @IBAction func LABtnPressed(_ sender: Any) {
+    performSegue(withIdentifier: "fromLA", sender: nil)
+    }
     
-
+    @IBAction func LVBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func BostonBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
+        
+    }
 }
