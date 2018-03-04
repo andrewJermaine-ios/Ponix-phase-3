@@ -1,5 +1,5 @@
 //
-//  ControlVC.swift
+//  ControlSystemsVC.swift
 //  Ponix
 //
 //  Created by Andrew Smith on 3/3/18.
@@ -8,9 +8,8 @@
 
 import UIKit
 
-class ControlVC: UIViewController {
+class ControlSystemsVC: UIViewController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,8 +21,9 @@ class ControlVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func LABtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: "toControlSystems", sender: nil)
+
+    @IBAction func aibBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: "toSystems", sender: nil)
     }
     
     @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
