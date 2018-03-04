@@ -26,6 +26,8 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var shopBtn: UIButton!
     
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,11 +37,18 @@ class MainVC: UIViewController {
         
         }
     
-
+    @IBAction func burgerPressed(_ sender: Any) {
+        titleLabel.text = "PONIX"
+        titleLabel.textColor = #colorLiteral(red: 0.7137254902, green: 0.8235294118, blue: 0.5098039216, alpha: 1)
+    }
+    
     @IBAction func monitorPress(_ sender: Any) {
         monitorContainer.isHidden = false
         controlContainer.isHidden = true
         shopContainer.isHidden = true
+        
+        titleLabel.text = "MONITOR"
+        titleLabel.textColor = #colorLiteral(red: 0.7233663201, green: 0.7233663201, blue: 0.7233663201, alpha: 1)
         
         monitorBtn.layer.backgroundColor = #colorLiteral(red: 0.737254902, green: 0.8196078431, blue: 0.537254902, alpha: 1)
         controlBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
@@ -53,6 +62,9 @@ class MainVC: UIViewController {
         monitorContainer.isHidden = true
         controlContainer.isHidden = false
         shopContainer.isHidden = true
+        
+        titleLabel.text = "CONTROL"
+        titleLabel.textColor = #colorLiteral(red: 0.7233663201, green: 0.7233663201, blue: 0.7233663201, alpha: 1)
 
         
         monitorBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
@@ -65,7 +77,9 @@ class MainVC: UIViewController {
         monitorContainer.isHidden = true
         controlContainer.isHidden = true
         shopContainer.isHidden = false
-
+        
+        titleLabel.text = "SHOP"
+        titleLabel.textColor = #colorLiteral(red: 0.7233663201, green: 0.7233663201, blue: 0.7233663201, alpha: 1)
         
         monitorBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)
         controlBtn.layer.backgroundColor = #colorLiteral(red: 0.6078431373, green: 0.7607843137, blue: 0.1882352941, alpha: 1)

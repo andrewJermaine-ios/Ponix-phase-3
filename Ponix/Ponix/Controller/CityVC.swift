@@ -26,5 +26,8 @@ class CityVC: UIViewController {
     @IBAction func harvestBtnPressed(_ sender: Any) {
         performSegue(withIdentifier: "toPlants", sender: nil)
     }
-    
+   
+    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
+        
+    }
 }
