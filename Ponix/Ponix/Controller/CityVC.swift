@@ -10,10 +10,11 @@ import UIKit
 
 class CityVC: UIViewController {
 
+    @IBOutlet weak var cityNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +23,8 @@ class CityVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func harvestBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: "toPlants", sender: nil)
     }
-    */
-
+    
 }

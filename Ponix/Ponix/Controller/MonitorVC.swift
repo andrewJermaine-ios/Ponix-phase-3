@@ -11,7 +11,7 @@ import UIKit
 class MonitorVC: UIViewController {
     
     
-   
+    var cityName: String?
     
     
     @IBOutlet weak var calendarView: UIViewShadow!
@@ -32,13 +32,28 @@ class MonitorVC: UIViewController {
 
     @IBAction func LABtnPressed(_ sender: Any) {
     performSegue(withIdentifier: "fromLA", sender: nil)
+        
+    cityName = "Los Angeles, CA"
+        
     }
     
     @IBAction func LVBtnPressed(_ sender: Any) {
+        cityName = "Las Vegas, NV"
+
     }
+
     
     @IBAction func BostonBtnPressed(_ sender: Any) {
+        cityName = "Boston, MA"
+
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        cityName = "Las Vegas, NV"
+//        let destinationVC = segue.destination as? CityVC
+//        destinationVC?.cityNameLabel.text = "Las Vegas, NV"
+    }
+    
     
     @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
         

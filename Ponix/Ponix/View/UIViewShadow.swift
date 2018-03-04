@@ -21,9 +21,9 @@ class UIViewShadow: UIView {
     }
     
     func setupView() {
-        self.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        self.layer.shadowColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
         self.layer.shadowOpacity = 1
-        self.layer.shadowOffset = CGSize.zero
+        self.layer.shadowOffset = CGSize(width: -2, height: 2)
         self.layer.shadowRadius = 3
     }
 }
