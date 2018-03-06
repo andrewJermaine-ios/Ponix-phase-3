@@ -25,6 +25,7 @@
 		DB09BBCA204B5BCE005E5437 /* CityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB09BBC9204B5BCE005E5437 /* CityVC.swift */; };
 		DBAF4E91204BB5FD0039457B /* ControlSystemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4E90204BB5FD0039457B /* ControlSystemsVC.swift */; };
 		DBAF4E93204BB6900039457B /* SystemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4E92204BB6900039457B /* SystemsVC.swift */; };
+		DBAF4E95204E811D0039457B /* UIImageShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4E94204E811D0039457B /* UIImageShadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		DB09BBC9204B5BCE005E5437 /* CityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityVC.swift; sourceTree = "<group>"; };
 		DBAF4E90204BB5FD0039457B /* ControlSystemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSystemsVC.swift; sourceTree = "<group>"; };
 		DBAF4E92204BB6900039457B /* SystemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemsVC.swift; sourceTree = "<group>"; };
+		DBAF4E94204E811D0039457B /* UIImageShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageShadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				DB09BBC3204B4F52005E5437 /* UIViewShadow.swift */,
 				DB09BBC5204B5213005E5437 /* UILabelShadow.swift */,
 				DB09BBC7204B5259005E5437 /* UIButtonShadow.swift */,
+				DBAF4E94204E811D0039457B /* UIImageShadow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				DB09BBBC204B3252005E5437 /* expandableHeaderView.swift in Sources */,
 				DB09BBBE204B38C0005E5437 /* MonitorVC.swift in Sources */,
 				DB09BBC2204B38E2005E5437 /* ShopVC.swift in Sources */,
+				DBAF4E95204E811D0039457B /* UIImageShadow.swift in Sources */,
 				DB09BBC0204B38D0005E5437 /* ControlVC.swift in Sources */,
 				DB09BBC6204B5213005E5437 /* UILabelShadow.swift in Sources */,
 				DBAF4E91204BB5FD0039457B /* ControlSystemsVC.swift in Sources */,
@@ -368,7 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MZ5A7S8SAG;
 				INFOPLIST_FILE = Ponix/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.Ponix.Ponix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,7 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MZ5A7S8SAG;
 				INFOPLIST_FILE = Ponix/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.Ponix.Ponix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
